@@ -7,7 +7,7 @@
  * @returns {number} The incremented number.
  */
 export function increment(num) {
-  // TODO: increase the value of num by 1
+  num += 1
 
   return num // Don't change this line
 }
@@ -19,7 +19,7 @@ export function increment(num) {
  * @returns {number} The decremented number.
  */
 export function decrement(num) {
-  // TODO: decrease the value of num by 1
+  num -= 1
 
   return num // Don't change this line
 }
