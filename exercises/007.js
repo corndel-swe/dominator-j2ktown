@@ -9,6 +9,14 @@
 export function main() {
   // TODO: Call the functions in the correct order
   // TODO: Return the product of the three returned values
+  let first = meFirst();
+  let second = meMiddle();
+  let third = meLast();
+
+  //console.log(typeof(first))
+
+  let count = first * second * third;
+  return count
 }
 
 function meFirst() {
